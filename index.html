@@ -173,6 +173,76 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/13/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Mcluo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mcluo的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/07/13/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="post-title-link" itemprop="url">面试题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-07-13 08:22:55 / 修改时间：08:26:00" itemprop="dateCreated datePublished" datetime="2020-07-13T08:22:55+08:00">2020-07-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="数组与链表的优缺点"><a href="#数组与链表的优缺点" class="headerlink" title="数组与链表的优缺点"></a>数组与链表的优缺点</h3><p>数组,在内存上给出了连续的空间.链表,内存地址上可以是不连续的,每个链表的节点包括原来的内存和下一个节点的信息(单向的一个,双向链表的话,会有两个). </p>
+<p>数组优于链表的:<br>1.内存空间占用的少,因为链表节点会附加上一块或两块下一个节点的信息.但是数组在建立时就固定了.所以也有可能会因为建立的数组过大或不足引起内存上的问题.<br>2.数组内的数据可随机访问.但链表不具备随机访问性.这个很容易理解.数组在内存里是连续的空间.比如如果一个数组地址从100到200,且每个元素占用两个字节,那么100-200之间的任何一个偶数都是数组元素的地址.可以直接访问.链表在内存地址可能是分散的.所以必须通过上一节点中的信息找能找到下一个节点.<br>3.查找速度上.这个也是因为内存地址的连续性的问题.不罗索了.<br>链表优于数组的:<br>1.插入与删除的操作.如果数组的中间插入一个元素,那么这个元素后的所有元素的内存地址都要往后移动.删除的话同理.只有对数据的最后一个元素进行插入删除操作时,才比较快.链表只需要更改有必要更改的节点内的节点信息就够了.并不需要更改节点的内存地址.<br>2.内存地址的利用率方面.不管你内存里还有多少空间,如果没办法一次性给出数组所需的要空间,那就会提示内存不足,磁盘空间整理的原因之一在这里.而链表可以是分散的空间地址.<br>3.链表的扩展性比数组好.因为一个数组建立后所占用的空间大小就是固定的.如果满了就没法扩展.只能新建一个更大空间的数组.而链表不是固定的,可以很方便的扩展.</p>
+<p>   数组与链表的优缺点；<br>    数组:</p>
+<pre><code>优点：使用方便 ，查询效率 比链表高，内存为一连续的区域 
+
+缺点：大小固定，不适合动态存储，不方便动态添加
+链表：
+
+ 优点：可动态添加删除   大小可变   
+ 缺点：只能通过顺次指针访问，查询效率低</code></pre><p> 补充：</p>
+<p>顺序表的优点:查找方便,适合随机查找<br>顺序表的缺点:插入、删除操作不方便，因为插入、删除操作会导致大量元素的移动 </p>
+<p>链接表的优点:插入、删除操作方便，不会导致元素的移动，因为元素增减，只需要调整指针。<br>顺序表的缺点:查找方便，不适合随机查找</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/11/MySQL%E5%9F%BA%E7%A1%80/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -198,7 +268,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-07-11 10:40:03 / 修改时间：10:44:19" itemprop="dateCreated datePublished" datetime="2020-07-11T10:40:03+08:00">2020-07-11</time>
+              <time title="创建时间：2020-07-11 10:40:03 / 修改时间：10:49:49" itemprop="dateCreated datePublished" datetime="2020-07-11T10:40:03+08:00">2020-07-11</time>
             </span>
 
           
@@ -212,8 +282,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <hr>
-<h2 id="title-MySQL基础"><a href="#title-MySQL基础" class="headerlink" title="title:MySQL基础"></a>title:MySQL基础</h2><h2 id="本单元目标"><a href="#本单元目标" class="headerlink" title="本单元目标"></a>本单元目标</h2><pre><code>一、为什么要学习数据库
+          <h2 id="本单元目标"><a href="#本单元目标" class="headerlink" title="本单元目标"></a>本单元目标</h2><pre><code>一、为什么要学习数据库
 二、数据库的相关概念      
     DBMS、DB、SQL
 三、数据库存储数据的特点
@@ -377,7 +446,7 @@ count 计数
    建议使用 count(*)</code></pre><h2 id="进阶5：分组查询"><a href="#进阶5：分组查询" class="headerlink" title="进阶5：分组查询"></a>进阶5：分组查询</h2><pre><code>语法：
 select 查询的字段，分组函数
 from 表
-group by 分组的字段</code></pre><p>​<br>​    特点：<br>​    1、可以按单个字段分组<br>​    2、和分组函数一同查询的字段最好是分组后的字段<br>​    3、分组筛选<br>​            针对的表    位置            关键字<br>​    分组前筛选：    原始表        group by的前面        where<br>​    分组后筛选：    分组后的结果集    group by的后面        having<br>​<br>    4、可以按多个字段分组，字段之间用逗号隔开<br>    5、可以支持排序<br>    6、having后可以支持别名</p>
+group by 分组的字段</code></pre><p>​<br>​    特点：<br>​    1、可以按单个字段分组<br>​    2、和分组函数一同查询的字段最好是分组后的字段<br>​    3、分组筛选<br>​            针对的表    位置            关键字<br>​    分组前筛选：    原始表        group by的前面        where<br>​    分组后筛选：    分组后的结果集    group by的后面        having<br>​<br>​    4、可以按多个字段分组，字段之间用逗号隔开<br>​    5、可以支持排序<br>​    6、having后可以支持别名</p>
 <h2 id="进阶6：多表连接查询"><a href="#进阶6：多表连接查询" class="headerlink" title="进阶6：多表连接查询"></a>进阶6：多表连接查询</h2><pre><code>笛卡尔乘积：如果连接条件省略或无效则会出现
 解决办法：添加上连接条件</code></pre><p>一、传统模式下的连接 ：等值连接——非等值连接</p>
 <pre><code>1.等值连接的结果 = 多个表的交集
@@ -487,13 +556,8 @@ CREATE TABLE IF NOT EXISTS stuinfo(
     stuId INT,
     stuName VARCHAR(20),
     gender CHAR,
-    bornDate DATETIME</code></pre><p>​<br>​    );<br>​<br>​    DESC studentinfo;<br>​    #2.修改表 alter<br>​    语法：ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;<br>​<br>    #①修改字段名<br>    ALTER TABLE studentinfo CHANGE  COLUMN sex gender CHAR;</p>
-<pre><code>#②修改表名
-ALTER TABLE stuinfo RENAME [TO]  studentinfo;
-#③修改字段类型和列级约束
-ALTER TABLE studentinfo MODIFY COLUMN borndate DATE ;
-
-#④添加字段
+    bornDate DATETIME</code></pre><p>​<br>​    );<br>​<br>​    DESC studentinfo;<br>​    #2.修改表 alter<br>​    语法：ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;<br>​<br>​    #①修改字段名<br>​    ALTER TABLE studentinfo CHANGE  COLUMN sex gender CHAR;<br>​<br>    #②修改表名<br>    ALTER TABLE stuinfo RENAME [TO]  studentinfo;<br>    #③修改字段类型和列级约束<br>    ALTER TABLE studentinfo MODIFY COLUMN borndate DATE ;</p>
+<pre><code>#④添加字段
 
 ALTER TABLE studentinfo ADD COLUMN email VARCHAR(20) first;
 #⑤删除字段
@@ -906,7 +970,7 @@ leave类似于java中的break语句，跳出所在循环！！！</code></pre>
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
